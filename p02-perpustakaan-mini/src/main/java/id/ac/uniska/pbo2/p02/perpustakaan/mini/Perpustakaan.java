@@ -1,13 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package id.ac.uniska.pbo2.p02.perpustakaan.mini;
-
-/**
- *
- * @author amell
- */
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -16,6 +7,8 @@ import java.util.Map;
 
 /**
  * Mengelola daftar koleksi dan data peminjam.
+ * 
+ * @author amell
  */
 public class Perpustakaan {
     private final List<Koleksi> daftarKoleksi = new ArrayList<>();
@@ -84,4 +77,17 @@ public class Perpustakaan {
     public List<Koleksi> getDaftarKoleksi() {
         return List.copyOf(daftarKoleksi);
     }
-}
+    
+    public List<Koleksi> cariJudul(String kataKunci) {
+        List<Koleksi> hasil = new ArrayList<>();
+        if (kataKunci == null || kataKunci.isBlank()) {
+            return hasil;
+        }
+        for (Koleksi k : daftarKoleksi) {
+            if (k.getJudul().toLowerCase().contains(kataKunci.toLowerCase())) {
+                hasil.add(k);
+            }
+        }
+        return hasil;
+    }
+} // Kurung kurawal penutup kelas ditambahkan di sini

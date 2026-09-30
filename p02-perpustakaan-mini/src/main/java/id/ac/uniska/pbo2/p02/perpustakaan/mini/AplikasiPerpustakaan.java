@@ -1,46 +1,52 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package id.ac.uniska.pbo2.p02.perpustakaan.mini;
 
-/**
- *
- * @author amell
- */
+import java.util.List;
+
 public class AplikasiPerpustakaan {
-    
+
     public static void main(String[] args) {
         Perpustakaan perpus = new Perpustakaan();
-        
-        // Menambahkan koleksi
+
+        // 1. Menambahkan koleksi (Buku, Majalah, Skripsi)
         perpus.tambah(new Buku("B001", "Laskar Pelangi", 2005, "Andrea Hirata"));
         perpus.tambah(new Buku("B002", "Clean Code", 2008, "Robert C. Martin"));
         perpus.tambah(new Majalah("M001", "Majalah Teknologi Kita", 2026, "Agustus"));
-       
-        // Menambahkan anggota
+        perpus.tambah(new Skripsi("S001", "Sistem Informasi Geografis", 2023, "Siti Rahmah", "Teknik Informatika"));
+
+        // 2. Menambahkan anggota
         Anggota siti = new Anggota("2410010123", "Siti Rahmah");
         Anggota budi = new Anggota("2410010456", "Budi Santoso");
 
-        // Menampilkan daftar awal
+        // 3. Menampilkan daftar awal koleksi
         tampilkanDaftar(perpus);
         System.out.println();
 
-        // Transaksi peminjaman
+        // 4. Transaksi peminjaman
         cetakPinjam(perpus, "B002", siti);
         cetakPinjam(perpus, "B002", budi);
         cetakPinjam(perpus, "M001", budi);
-      
+        
+        // Uji coba meminjam Skripsi (akan menghasilkan: gagal)
+        cetakPinjam(perpus, "S001", siti);
 
         System.out.println("Peminjam B002: " + perpus.getPeminjam("B002").nama());
         System.out.println();
 
-        // Transaksi pengembalian
+        // 5. Uji pencarian kata kunci judul (Latihan Mandiri)
+        String kataKunci = "code";
+        List<Koleksi> hasilCari = perpus.cariJudul(kataKunci);
+        System.out.println("Hasil pencarian \"" + kataKunci + "\": " + hasilCari.size() + " koleksi");
+        for (Koleksi k : hasilCari) {
+            System.out.println(k);
+        }
+        System.out.println();
+
+        // 6. Transaksi pengembalian
         cetakKembali(perpus, "B002", 2);
         cetakKembali(perpus, "M001", 3);
         System.out.println();
 
-        // Ringkasan status koleksi
+        // 7. Ringkasan status koleksi
         System.out.println("Koleksi tersedia: " + perpus.jumlahTersedia()
                 + " dari " + perpus.getDaftarKoleksi().size());
     }
@@ -48,7 +54,7 @@ public class AplikasiPerpustakaan {
     private static void tampilkanDaftar(Perpustakaan perpus) {
         System.out.println("=== Daftar Koleksi ===");
         for (Koleksi k : perpus.getDaftarKoleksi()) {
-            System.out.println(k); // otomatis memanggil toString()
+            System.out.println(k);
         }
     }
 
