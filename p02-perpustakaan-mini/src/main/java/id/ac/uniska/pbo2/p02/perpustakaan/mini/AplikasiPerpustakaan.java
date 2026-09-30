@@ -30,7 +30,7 @@ public class AplikasiPerpustakaan {
         cetakPinjam(perpus, "B002", siti);
         cetakPinjam(perpus, "B002", budi);
         cetakPinjam(perpus, "M001", budi);
-        perpus.cari("B002").status = StatusKoleksi.TERSEDIA;
+      
 
         System.out.println("Peminjam B002: " + perpus.getPeminjam("B002").nama());
         System.out.println();
