@@ -167,11 +167,17 @@
     </Component>
     <Component class="javax.swing.JRadioButton" name="lakiRadio">
       <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="jeniskelaminGroup"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Laki-laki"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JRadioButton" name="perempuanRadio">
       <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="jeniskelaminGroup"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Perempuan"/>
       </Properties>
     </Component>
