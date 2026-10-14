@@ -25,15 +25,16 @@ public class FormTiketTravel extends javax.swing.JFrame {
      * Creates new form FormTiketTravel
      */
     public FormTiketTravel() {
-        initComponents();
-        
-        // Placeholder dipasang di konstruktor
-        namaField.putClientProperty("JTextField.placeholderText", "Nama sesuai KTP");
-        hpField.putClientProperty("JTextField.placeholderText", "08xxxxxxxxxx");
+    initComponents();
     
-        // Set tombol default
-        getRootPane().setDefaultButton(pesanButton);
-    }
+    // Placeholder dipasang di konstruktor
+    namaField.putClientProperty("JTextField.placeholderText", "Nama sesuai KTP");
+    hpField.putClientProperty("JTextField.placeholderText", "08xxxxxxxxxx");
+    catatanArea.putClientProperty("JTextArea.placeholderText", "Alamat jemput atau catatan khusus");
+    
+    // Set tombol default
+    getRootPane().setDefaultButton(pesanButton);
+}
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -80,7 +81,7 @@ public class FormTiketTravel extends javax.swing.JFrame {
 
         catatanLabel.setText("Catatan");
 
-        tujuanCombo.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Banjarbaru", "Martapura", "Palangkaraya", "Samarinda", "Balikpapan", " " }));
+        tujuanCombo.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Banjarbaru", "Martapura", "Palangkaraya", "Samarinda", "Balikpapan" }));
 
         kelasGroup.add(ekonomiRadio);
         ekonomiRadio.setSelected(true);
