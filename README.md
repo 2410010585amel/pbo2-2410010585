@@ -70,17 +70,17 @@ Berikut adalah hasil pengujian pencarian judul dan percobaan peminjaman Skripsi:
 ## 📸 Output Program P03
 
 ### 1. Mode Terang (Light Mode)
-![Form Tiket Travel Mode Terang](screenshot%20dan%20jawaban_PBO2-P03/Form%20Pemesanan%20Tiket%20Travel%20Mode%20Terang.png)
+![Form Tiket Travel Mode Terang](screenshot%20dan%20jawaban_P03/Form%20Pemesanan%20Tiket%20Travel%20Mode%20Terang.png)
 
 ---
 
 ### 2. Mode Gelap (Dark Mode)
-![Form Tiket Travel Mode Gelap](screenshot%20dan%20jawaban_PBO2-P03/Form%20Pemesanan%20Tiket%20Travel%20%20Mode%20Gelap.png)
+![Form Tiket Travel Mode Gelap](screenshot%20dan%20jawaban_P03/Form%20Pemesanan%20Tiket%20Travel%20%20Mode%20Gelap.png)
 
 ---
 
 ### 3. Tampilan Design & Navigator NetBeans
-![Design FormTiketTravel](screenshot%20dan%20jawaban_PBO2-P03/Design%20FormTiketTravel%20.png)
+![Design FormTiketTravel](screenshot%20dan%20jawaban_P03/Design%20FormTiketTravel%20.png)
 
 ---
 
