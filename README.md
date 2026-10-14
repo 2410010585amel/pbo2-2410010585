@@ -36,8 +36,7 @@ Berikut adalah bukti eksekusi perintah `git log --oneline`:
 
 Berikut adalah hasil pengujian pencarian judul dan percobaan peminjaman Skripsi:
 
-![Screenshot Output P02](screenshot%20dan%20eksperimen%20P02/Screenshot%20P02.png)
-
+![Screenshot Output P02](screenshot%20dan%20ekperimen%20P02/Screenshot%20P02.png)
 ---
 
 ## 🔬 Jawaban Eksperimen Praktikum 6
