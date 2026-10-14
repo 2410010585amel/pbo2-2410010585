@@ -75,7 +75,7 @@ Berikut adalah hasil pengujian pencarian judul dan percobaan peminjaman Skripsi:
 ---
 
 ### 2. Mode Gelap (Dark Mode)
-![Form Tiket Travel Mode Gelap](screenshot%20dan%20jawaban_PBO2-P03/Form%20Pemesanan%20Tiket%20Travel%20Mode%20Gelap.png)
+![Form Tiket Travel Mode Gelap](screenshot%20dan%20jawaban_PBO2-P03/Form%20Pemesanan%20Tiket%20Travel%20%20Mode%20Gelap.png)
 
 ---
 
