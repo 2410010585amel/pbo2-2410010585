@@ -37,11 +37,11 @@ public class GaleriLayout extends javax.swing.JFrame {
 
         layoutTab = new javax.swing.JTabbedPane();
         borderPanel = new javax.swing.JPanel();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
+        northButton = new javax.swing.JButton();
+        southButton = new javax.swing.JButton();
+        westButton = new javax.swing.JButton();
+        eastButton = new javax.swing.JButton();
+        centerButton = new javax.swing.JButton();
         flowPanel = new javax.swing.JPanel();
         jButton6 = new javax.swing.JButton();
         jButton7 = new javax.swing.JButton();
@@ -66,7 +66,7 @@ public class GaleriLayout extends javax.swing.JFrame {
         jButton24 = new javax.swing.JButton();
         jButton25 = new javax.swing.JButton();
         gabunganPanel = new javax.swing.JPanel();
-        catatanJudulLabel = new javax.swing.JButton();
+        catatanJudulLabel = new javax.swing.JLabel();
         TextArea = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
         hariPanel = new javax.swing.JPanel();
@@ -87,20 +87,20 @@ public class GaleriLayout extends javax.swing.JFrame {
         borderPanel.setBorder(javax.swing.BorderFactory.createEmptyBorder(12, 12, 12, 12));
         borderPanel.setLayout(new java.awt.BorderLayout(8, 8));
 
-        jButton1.setText("NORTH");
-        borderPanel.add(jButton1, java.awt.BorderLayout.NORTH);
+        northButton.setText("NORTH");
+        borderPanel.add(northButton, java.awt.BorderLayout.NORTH);
 
-        jButton2.setText("SOUTH");
-        borderPanel.add(jButton2, java.awt.BorderLayout.SOUTH);
+        southButton.setText("SOUTH");
+        borderPanel.add(southButton, java.awt.BorderLayout.SOUTH);
 
-        jButton3.setText("WEST");
-        borderPanel.add(jButton3, java.awt.BorderLayout.WEST);
+        westButton.setText("WEST");
+        borderPanel.add(westButton, java.awt.BorderLayout.WEST);
 
-        jButton4.setText("EAST");
-        borderPanel.add(jButton4, java.awt.BorderLayout.EAST);
+        eastButton.setText("EAST");
+        borderPanel.add(eastButton, java.awt.BorderLayout.EAST);
 
-        jButton5.setText("CENTER");
-        borderPanel.add(jButton5, java.awt.BorderLayout.CENTER);
+        centerButton.setText("CENTER");
+        borderPanel.add(centerButton, java.awt.BorderLayout.CENTER);
 
         layoutTab.addTab("BorderLayout", borderPanel);
 
@@ -276,13 +276,14 @@ public class GaleriLayout extends javax.swing.JFrame {
     private javax.swing.JPanel aksiPanel;
     private javax.swing.JPanel borderPanel;
     private javax.swing.JPanel boxPanel;
-    private javax.swing.JButton catatanJudulLabel;
+    private javax.swing.JLabel catatanJudulLabel;
+    private javax.swing.JButton centerButton;
+    private javax.swing.JButton eastButton;
     private javax.swing.JPanel flowPanel;
     private javax.swing.JPanel gabunganPanel;
     private javax.swing.JPanel gridBagPanel;
     private javax.swing.JPanel gridPanel;
     private javax.swing.JPanel hariPanel;
-    private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
     private javax.swing.JButton jButton12;
@@ -293,7 +294,6 @@ public class GaleriLayout extends javax.swing.JFrame {
     private javax.swing.JButton jButton17;
     private javax.swing.JButton jButton18;
     private javax.swing.JButton jButton19;
-    private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton20;
     private javax.swing.JButton jButton21;
     private javax.swing.JButton jButton22;
@@ -304,11 +304,8 @@ public class GaleriLayout extends javax.swing.JFrame {
     private javax.swing.JButton jButton27;
     private javax.swing.JButton jButton28;
     private javax.swing.JButton jButton29;
-    private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton30;
     private javax.swing.JButton jButton31;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
@@ -317,5 +314,8 @@ public class GaleriLayout extends javax.swing.JFrame {
     private javax.swing.JTextArea jTextArea1;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTabbedPane layoutTab;
+    private javax.swing.JButton northButton;
+    private javax.swing.JButton southButton;
+    private javax.swing.JButton westButton;
     // End of variables declaration//GEN-END:variables
 }

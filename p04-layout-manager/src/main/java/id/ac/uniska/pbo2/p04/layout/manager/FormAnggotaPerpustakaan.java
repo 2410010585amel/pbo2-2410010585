@@ -18,34 +18,30 @@ public class FormAnggotaPerpustakaan extends javax.swing.JFrame {
     public FormAnggotaPerpustakaan() {
     initComponents();
 
-    // 1. Judul Utama (Sangat Tebal & Besar / Heading 2)
+    // Kode tambahan: gaya huruf FlatLaf, placeholder, radio button, dan tombol default
     judulLabel.putClientProperty("FlatLaf.styleClass", "h2");
-
-    // 2. Keterangan Sub-judul (Abu-abu pudar)
     keteranganLabel.putClientProperty("FlatLaf.style", "foreground: $Label.disabledForeground");
 
-    // 3. Judul Bagian / Sub-header (Tebal Sedang / Heading 4)
     dataAnggotaLabel.putClientProperty("FlatLaf.styleClass", "h4");
     kontakLabel.putClientProperty("FlatLaf.styleClass", "h4");
     persetujuanLabel.putClientProperty("FlatLaf.styleClass", "h4");
 
-    // 4. Mengelompokkan Radio Button
+    // Pengelompokan Radio Button Jenis Anggota
     jenisButtonGroup.add(mahasiswaRadio);
     jenisButtonGroup.add(dosenRadio);
     jenisButtonGroup.add(umumRadio);
     mahasiswaRadio.setSelected(true);
 
-    // 5. Placeholder Email & HP
+    // Placeholder pada Text Field Format Email & HP
     emailField.putClientProperty("JTextField.placeholderText", "nama@contoh.com");
     hpField.putClientProperty("JTextField.placeholderText", "08xxxxxxxxxx");
 
-    // 6. Tombol Default Enter
+    // Menjadikan Tombol 'Daftar' sebagai Default Button (saat ditekan Enter)
     getRootPane().setDefaultButton(daftarButton);
-
     pack();
     setMinimumSize(getSize());
     setLocationRelativeTo(null);
-}
+   }
 
     /**
      * This method is called from within the constructor to initialize the form.

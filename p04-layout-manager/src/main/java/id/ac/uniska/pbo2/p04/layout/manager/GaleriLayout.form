@@ -54,7 +54,7 @@
             <Property name="verticalGap" type="int" value="8"/>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JButton" name="jButton1">
+            <Component class="javax.swing.JButton" name="northButton">
               <Properties>
                 <Property name="text" type="java.lang.String" value="NORTH"/>
               </Properties>
@@ -64,7 +64,7 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JButton" name="jButton2">
+            <Component class="javax.swing.JButton" name="southButton">
               <Properties>
                 <Property name="text" type="java.lang.String" value="SOUTH"/>
               </Properties>
@@ -74,7 +74,7 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JButton" name="jButton3">
+            <Component class="javax.swing.JButton" name="westButton">
               <Properties>
                 <Property name="text" type="java.lang.String" value="WEST"/>
               </Properties>
@@ -84,7 +84,7 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JButton" name="jButton4">
+            <Component class="javax.swing.JButton" name="eastButton">
               <Properties>
                 <Property name="text" type="java.lang.String" value="EAST"/>
               </Properties>
@@ -94,7 +94,7 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JButton" name="jButton5">
+            <Component class="javax.swing.JButton" name="centerButton">
               <Properties>
                 <Property name="text" type="java.lang.String" value="CENTER"/>
               </Properties>
@@ -304,7 +304,7 @@
             <Property name="verticalGap" type="int" value="8"/>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JButton" name="catatanJudulLabel">
+            <Component class="javax.swing.JLabel" name="catatanJudulLabel">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Catatan Harian"/>
               </Properties>

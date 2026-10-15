@@ -28,7 +28,8 @@ public class FormBiodata extends javax.swing.JFrame {
     getRootPane().setDefaultButton(simpanButton);
     
     pack(); // hitung ulang ukuran setelah gaya huruf berubah
-    setMinimumSize(getSize()); // jendela tidak dapat dikecilkan melebihi ukuran awal               setLocationRelativeTo(null);
+    setMinimumSize(getSize()); // jendela tidak dapat dikecilkan melebihi ukuran awal               
+    setLocationRelativeTo(null);
 }
 
     /**
@@ -73,7 +74,6 @@ public class FormBiodata extends javax.swing.JFrame {
         headerPanel.setBorder(javax.swing.BorderFactory.createEmptyBorder(16, 16, 8, 16));
         headerPanel.setLayout(new javax.swing.BoxLayout(headerPanel, javax.swing.BoxLayout.Y_AXIS));
 
-        judulLabel.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         judulLabel.setText("Biodata Mahasiswa");
         headerPanel.add(judulLabel);
 
@@ -87,7 +87,6 @@ public class FormBiodata extends javax.swing.JFrame {
         formPanel.setBorder(javax.swing.BorderFactory.createEmptyBorder(8, 16, 8, 16));
         formPanel.setLayout(new java.awt.GridBagLayout());
 
-        dataDiriLabel.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
         dataDiriLabel.setText("Data Diri");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
@@ -97,6 +96,7 @@ public class FormBiodata extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(0, 0, 6, 0);
         formPanel.add(dataDiriLabel, gridBagConstraints);
 
+        namaLabel.setLabelFor(namaField);
         namaLabel.setText("Nama lengkap");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
@@ -108,10 +108,10 @@ public class FormBiodata extends javax.swing.JFrame {
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 1;
         gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
-        gridBagConstraints.weightx = 1.0;
         gridBagConstraints.insets = new java.awt.Insets(4, 0, 4, 0);
         formPanel.add(namaField, gridBagConstraints);
 
+        npmLabel.setLabelFor(npmField);
         npmLabel.setText("NPM");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
@@ -127,6 +127,7 @@ public class FormBiodata extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(4, 0, 4, 0);
         formPanel.add(npmField, gridBagConstraints);
 
+        prodiLabel.setLabelFor(prodiComboBox);
         prodiLabel.setText("Program studi");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
@@ -144,6 +145,7 @@ public class FormBiodata extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(4, 0, 4, 0);
         formPanel.add(prodiComboBox, gridBagConstraints);
 
+        semesterLabel.setLabelFor(semesterSpinner);
         semesterLabel.setText("Semester");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
@@ -157,19 +159,21 @@ public class FormBiodata extends javax.swing.JFrame {
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 4;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.WEST;
+        gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
+        gridBagConstraints.weightx = 1.0;
         gridBagConstraints.insets = new java.awt.Insets(4, 0, 4, 0);
         formPanel.add(semesterSpinner, gridBagConstraints);
 
-        kontakLabel.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
         kontakLabel.setText("Kontak");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 5;
         gridBagConstraints.gridwidth = 2;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.WEST;
+        gridBagConstraints.insets = new java.awt.Insets(16, 0, 6, 6);
         formPanel.add(kontakLabel, gridBagConstraints);
 
+        emailLabel.setLabelFor(emailField);
         emailLabel.setText("Email");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
@@ -185,6 +189,7 @@ public class FormBiodata extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(4, 0, 4, 0);
         formPanel.add(emailField, gridBagConstraints);
 
+        hpLabel.setLabelFor(hpField);
         hpLabel.setText("Nomor HP");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
@@ -200,6 +205,7 @@ public class FormBiodata extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(4, 0, 4, 0);
         formPanel.add(hpField, gridBagConstraints);
 
+        alamatLabel.setLabelFor(alamatTextArea);
         alamatLabel.setText("Alamat");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
@@ -216,6 +222,7 @@ public class FormBiodata extends javax.swing.JFrame {
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 8;
         gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.weightx = 1.0;
         gridBagConstraints.insets = new java.awt.Insets(4, 0, 4, 0);
         formPanel.add(alamatScrollPane, gridBagConstraints);
@@ -224,7 +231,8 @@ public class FormBiodata extends javax.swing.JFrame {
 
         getContentPane().add(isiPanel, java.awt.BorderLayout.CENTER);
 
-        tombolPanel.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.RIGHT));
+        tombolPanel.setBorder(javax.swing.BorderFactory.createEmptyBorder(8, 16, 16, 16));
+        tombolPanel.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.RIGHT, 8, 8));
 
         batalButton.setText("Batal");
         batalButton.addActionListener(this::batalButtonActionPerformed);
