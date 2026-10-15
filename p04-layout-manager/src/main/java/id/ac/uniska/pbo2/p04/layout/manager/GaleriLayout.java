@@ -76,10 +76,6 @@ public class GaleriLayout extends javax.swing.JFrame {
         aksiPanel = new javax.swing.JPanel();
         jButton30 = new javax.swing.JButton();
         jButton29 = new javax.swing.JButton();
-        gridBagPanel = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        jButton31 = new javax.swing.JButton();
-        jTextField1 = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Galeri Layout Manager");
@@ -218,34 +214,6 @@ public class GaleriLayout extends javax.swing.JFrame {
 
         layoutTab.addTab("Gabungan", gabunganPanel);
 
-        gridBagPanel.setLayout(new java.awt.GridBagLayout());
-
-        jLabel1.setText("jLabel1");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 0;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.WEST;
-        gridBagConstraints.insets = new java.awt.Insets(6, 0, 6, 12);
-        gridBagPanel.add(jLabel1, gridBagConstraints);
-
-        jButton31.setText("jButton31");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 0;
-        gridBagConstraints.insets = new java.awt.Insets(4, 0, 4, 8);
-        gridBagPanel.add(jButton31, gridBagConstraints);
-
-        jTextField1.setText("jTextField1");
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
-        gridBagConstraints.gridy = 0;
-        gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
-        gridBagConstraints.weightx = 1.0;
-        gridBagConstraints.insets = new java.awt.Insets(4, 0, 4, 0);
-        gridBagPanel.add(jTextField1, gridBagConstraints);
-
-        layoutTab.addTab("GridBagLayout", gridBagPanel);
-
         getContentPane().add(layoutTab, java.awt.BorderLayout.CENTER);
 
         pack();
@@ -281,7 +249,6 @@ public class GaleriLayout extends javax.swing.JFrame {
     private javax.swing.JButton eastButton;
     private javax.swing.JPanel flowPanel;
     private javax.swing.JPanel gabunganPanel;
-    private javax.swing.JPanel gridBagPanel;
     private javax.swing.JPanel gridPanel;
     private javax.swing.JPanel hariPanel;
     private javax.swing.JButton jButton10;
@@ -305,14 +272,11 @@ public class GaleriLayout extends javax.swing.JFrame {
     private javax.swing.JButton jButton28;
     private javax.swing.JButton jButton29;
     private javax.swing.JButton jButton30;
-    private javax.swing.JButton jButton31;
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton9;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JTextArea jTextArea1;
-    private javax.swing.JTextField jTextField1;
     private javax.swing.JTabbedPane layoutTab;
     private javax.swing.JButton northButton;
     private javax.swing.JButton southButton;
