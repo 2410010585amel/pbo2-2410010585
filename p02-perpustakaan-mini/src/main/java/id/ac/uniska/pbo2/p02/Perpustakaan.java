@@ -1,4 +1,4 @@
-package id.ac.uniska.pbo2.p02.perpustakaan.mini;
+package id.ac.uniska.pbo2.p02;
 
 import java.util.ArrayList;
 import java.util.HashMap;

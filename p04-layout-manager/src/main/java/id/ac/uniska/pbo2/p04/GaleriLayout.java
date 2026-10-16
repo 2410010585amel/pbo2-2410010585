@@ -1,4 +1,4 @@
-package id.ac.uniska.pbo2.p04.layout.manager;
+package id.ac.uniska.pbo2.p04;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -33,7 +33,6 @@ public class GaleriLayout extends javax.swing.JFrame {
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
-        java.awt.GridBagConstraints gridBagConstraints;
 
         layoutTab = new javax.swing.JTabbedPane();
         borderPanel = new javax.swing.JPanel();

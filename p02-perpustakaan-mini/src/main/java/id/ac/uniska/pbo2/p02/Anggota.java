@@ -1,4 +1,4 @@
-package id.ac.uniska.pbo2.p02.perpustakaan.mini;
+package id.ac.uniska.pbo2.p02;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license

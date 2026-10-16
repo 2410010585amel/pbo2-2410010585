@@ -281,7 +281,7 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="setujuCheckBox">
+            <Component class="javax.swing.JCheckBox" name="setujuCheck">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Setuju dengan tata tertib perpustakaan"/>
               </Properties>

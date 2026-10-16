@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package id.ac.uniska.pbo2.p04.layout.manager;
+package id.ac.uniska.pbo2.p04;
 
 /**
  *
@@ -80,7 +80,7 @@ public class FormAnggotaPerpustakaan extends javax.swing.JFrame {
         alamatTextArea = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
         persetujuanLabel = new javax.swing.JLabel();
-        setujuCheckBox = new javax.swing.JCheckBox();
+        setujuCheck = new javax.swing.JCheckBox();
         tombolPanel = new javax.swing.JPanel();
         batalButton = new javax.swing.JButton();
         daftarButton = new javax.swing.JButton();
@@ -255,14 +255,14 @@ public class FormAnggotaPerpustakaan extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(16, 0, 6, 0);
         formPanel.add(persetujuanLabel, gridBagConstraints);
 
-        setujuCheckBox.setText("Setuju dengan tata tertib perpustakaan");
+        setujuCheck.setText("Setuju dengan tata tertib perpustakaan");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 10;
         gridBagConstraints.gridwidth = 4;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.WEST;
         gridBagConstraints.insets = new java.awt.Insets(4, 0, 4, 0);
-        formPanel.add(setujuCheckBox, gridBagConstraints);
+        formPanel.add(setujuCheck, gridBagConstraints);
 
         isiPanel.add(formPanel, java.awt.BorderLayout.NORTH);
 
@@ -323,7 +323,7 @@ public class FormAnggotaPerpustakaan extends javax.swing.JFrame {
     private javax.swing.JLabel persetujuanLabel;
     private javax.swing.JComboBox<String> prodiComboBox;
     private javax.swing.JLabel prodiLabel;
-    private javax.swing.JCheckBox setujuCheckBox;
+    private javax.swing.JCheckBox setujuCheck;
     private javax.swing.JPanel tombolPanel;
     private javax.swing.JRadioButton umumRadio;
     // End of variables declaration//GEN-END:variables

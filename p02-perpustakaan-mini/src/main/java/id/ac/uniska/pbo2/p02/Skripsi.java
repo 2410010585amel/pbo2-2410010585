@@ -1,4 +1,4 @@
-package id.ac.uniska.pbo2.p02.perpustakaan.mini;
+package id.ac.uniska.pbo2.p02;
 
 /**
  * Skripsi merupakan turunan Koleksi yang hanya dapat dibaca di tempat.
