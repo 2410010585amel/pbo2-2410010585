@@ -11,6 +11,7 @@
 
 ### Foto Sketsa Form
 ![Sketsa Form FormAnggotaPerpustakaan](/P04-docs/P04-Sketsa.jpg)
+
 ### Tabel Rancangan Layout
 | Bagian Panel | Jenis Layout | Keterangan / Constraint |
 | :--- | :--- | :--- |
@@ -31,6 +32,7 @@
 
 ### 3. Jendela Navigator & Susunan Panel (Tab Design)
 ![Susunan Panel di Navigator](/P04-docs/FormAnggotaPerpustakaanSusunanPanel.png)
+
 ---
 
 ## 🧪 Jawaban Eksperimen Praktikum
@@ -77,29 +79,29 @@
 
 ## ❓ Pertanyaan Refleksi (Bagian G)
 
-1. **Mengapa Null Layout dan Absolute Layout sebaiknya dihindari?**[cite: 7]
-   * **Jawab:** Keduanya menggunakan posisi piksel yang kaku (*fixed*), sehingga tampilan tidak responsif saat ukuran jendela diubah dan teks rentan terpotong pada resolusi/skala layar yang berbeda[cite: 7]. Selain itu, Absolute Layout membutuhkan library tambahan NetBeans yang menyebabkan aplikasi sulit dijalankan di komputer lain[cite: 7].
+1. **Mengapa Null Layout dan Absolute Layout sebaiknya dihindari?**
+   * **Jawab:** Keduanya menggunakan posisi piksel yang kaku (*fixed*), sehingga tampilan tidak responsif saat ukuran jendela diubah dan teks rentan terpotong pada resolusi/skala layar yang berbeda. Selain itu, Absolute Layout membutuhkan library tambahan NetBeans yang menyebabkan aplikasi sulit dijalankan di komputer lain.
 
-2. **Jelaskan perbedaan perilaku FlowLayout dan GridLayout saat jendela dilebarkan.**[cite: 7]
-   * **Jawab:** Pada `FlowLayout`, ukuran komponen tidak berubah melainkan berpindah baris jika ruang tidak muat[cite: 7]. Sedangkan pada `GridLayout`, seluruh komponen akan ikut melebar dan meninggi secara proporsional mengisi seluruh area sel[cite: 7].
+2. **Jelaskan perbedaan perilaku FlowLayout dan GridLayout saat jendela dilebarkan.**
+   * **Jawab:** Pada `FlowLayout`, ukuran komponen tidak berubah melainkan berpindah baris jika ruang tidak muat. Sedangkan pada `GridLayout`, seluruh komponen akan ikut melebar dan meninggi secara proporsional mengisi seluruh area sel.
 
-3. **Apa fungsi `Weight X` dan `Fill` pada constraint GridBagLayout?**[cite: 7]
-   * **Jawab:** `Weight X` menentukan porsi ruang ekstra yang dialokasikan ke kolom saat jendela dilebarkan[cite: 7]. `Fill` menentukan bagaimana komponen memanfaatkan ruang kosong yang telah dialokasikan oleh `Weight X` tersebut (misal: `HORIZONTAL` membuat komponen melebar memenuhi sel)[cite: 7].
+3. **Apa fungsi `Weight X` dan `Fill` pada constraint GridBagLayout?**
+   * **Jawab:** `Weight X` menentukan porsi ruang ekstra yang dialokasikan ke kolom saat jendela dilebarkan. `Fill` menentukan bagaimana komponen memanfaatkan ruang kosong yang telah dialokasikan oleh `Weight X` tersebut (misal: `HORIZONTAL` membuat komponen melebar memenuhi sel).
 
-4. **Mengapa `formPanel` dibungkus `isiPanel` dan diletakkan di North?**[cite: 7]
-   * **Jawab:** Agar susunan isian form tetap berada di posisi atas dan tidak tertarik melebar secara vertikal ke tengah saat jendela ditinggikan, sehingga kerapian tata letak form tetap terjaga[cite: 7].
+4. **Mengapa `formPanel` dibungkus `isiPanel` dan diletakkan di North?**
+   * **Jawab:** Agar susunan isian form tetap berada di posisi atas dan tidak tertarik melebar secara vertikal ke tengah saat jendela ditinggikan, sehingga kerapian tata letak form tetap terjaga.
 
-5. **Sebutkan dua prinsip desain yang Anda terapkan pada Form Anggota Perpustakaan dan tunjukkan buktinya.**[cite: 7]
-   * **Prinsip Pengelompokan (Grouping / Proximity):** Elemen input dikelompokkan secara rapi di bawah subjudul (`DataAnggota`, `Kontak`, `Persetujuan`) menggunakan label berukuran `h4` dan jarak `Insets` yang teratur[cite: 7].
-   * **Prinsip Hierarki Visual & Petunjuk Interaksi (Visual Hierarchy & Affordance):** Judul utama dibuat paling menonjol (`h2`), tombol **Daftar** dijadikan tombol default (*Enter*), serta `emailField` dan `hpField` diberi teks *placeholder* sebagai petunjuk format input[cite: 7].
+5. **Sebutkan dua prinsip desain yang Anda terapkan pada Form Anggota Perpustakaan dan tunjukkan buktinya.**
+   * **Prinsip Pengelompokan (Grouping / Proximity):** Elemen input dikelompokkan secara rapi di bawah subjudul (`DataAnggota`, `Kontak`, `Persetujuan`) menggunakan label berukuran `h4` dan jarak `Insets` yang teratur.
+   * **Prinsip Hierarki Visual & Petunjuk Interaksi (Visual Hierarchy & Affordance):** Judul utama dibuat paling menonjol (`h2`), tombol **Daftar** dijadikan tombol default (*Enter*), serta `emailField` dan `hpField` diberi teks *placeholder* sebagai petunjuk format input.
 
 ---
 
 ## 🤖 Deklarasi Penggunaan Alat Bantu AI
 
-Saya menyatakan bahwa dalam penyelesaian tugas praktikum ini, saya **menggunakan alat bantu kecerdasan buatan (Artificial Intelligence)** dengan rincian sebagai berikut[cite: 8]:
+Saya menyatakan bahwa dalam penyelesaian tugas praktikum ini, saya **menggunakan alat bantu kecerdasan buatan (Artificial Intelligence)** dengan rincian sebagai berikut:
 
-* **Alat AI yang Digunakan:** Gemini (Google AI)[cite: 8]
+* **Alat AI yang Digunakan:** Gemini (Google AI)
 * **Keperluan Penggunaan:**
-  1. **Penjelasan Langkah & Navigasi Modul:** Membantu menjelaskan bagian-bagian petunjuk modul yang belum dipahami, seperti urutan elemen yang harus diklik pada antarmuka NetBeans IDE (Palette, Navigator, Properties, dan Customizer Layout)[cite: 8].
-  2. **Koreksi Kode Java:** Mengidentifikasi dan memperbaiki kesalahan penulisan kode Java (*debugging*), penataan struktur elemen pada *Layout Manager*, serta penerapan properti gaya tampilan FlatLaf[cite: 8].
+  1. **Penjelasan Langkah & Navigasi Modul:** Membantu menjelaskan bagian-bagian petunjuk modul yang belum dipahami, seperti urutan elemen yang harus diklik pada antarmuka NetBeans IDE (Palette, Navigator, Properties, dan Customizer Layout).
+  2. **Koreksi Kode Java:** Mengidentifikasi dan memperbaiki kesalahan penulisan kode Java (*debugging*), penataan struktur elemen pada *Layout Manager*, serta penerapan properti gaya tampilan FlatLaf.
