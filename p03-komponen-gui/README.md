@@ -9,13 +9,13 @@
 ## 📸 Tangkapan Layar (Screenshot)
 
 ### 1. Form Pemesanan Tiket Travel - Mode Terang
-![Mode Terang](../screenshot%20dan%20jawaban_P03/Form%20Pemesanan%20Tiket%20Travel%20Mode%20Terang.png)
+![Mode Terang](../P03-docs/Form%20Pemesanan%20Tiket%20Travel%20Mode%20Terang.png)
 
 ### 2. Form Pemesanan Tiket Travel - Mode Gelap
-![Mode Gelap](../screenshot%20dan%20jawaban_P03/Form%20Pemesanan%20Tiket%20Travel%20%20Mode%20Gelap.png)
+![Mode Gelap](../P03-docs/Form%20Pemesanan%20Tiket%20Travel%20%20Mode%20Gelap.png)
 
 ### 3. Tab Design & Jendela Navigator NetBeans
-![Design Navigator](../screenshot%20dan%20jawaban_P03/Design%20FormTiketTravel%20.png)
+![Design Navigator](../P03-docs/Design%20FormTiketTravel%20.png)
 
 ---
 
