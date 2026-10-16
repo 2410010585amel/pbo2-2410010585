@@ -10,8 +10,7 @@
 ## 📐 Sketsa Form dan Tabel Rancangan
 
 ### Foto Sketsa Form
-![Sketsa Form FormAnggotaPerpustakaan](../P04-docs/P04-Sketsa.jpg)
-
+![Sketsa Form FormAnggotaPerpustakaan](/P04-docs/P04-Sketsa.jpg)
 ### Tabel Rancangan Layout
 | Bagian Panel | Jenis Layout | Keterangan / Constraint |
 | :--- | :--- | :--- |
@@ -25,14 +24,13 @@
 ## 📸 Tangkapan Layar Aplikasi (Screenshots)
 
 ### 1. FormAnggotaPerpustakaan - Ukuran Awal
-![Form Ukuran Awal](../P04-docs/FormAnggotaPerpustakaanUkuranAwal.png)
+![Form Ukuran Awal](/P04-docs/FormAnggotaPerpustakaanUkuranAwal.png)
 
 ### 2. FormAnggotaPerpustakaan - Saat Dilebarkan
-![Form Saat Dilebarkan](../P04-docs/FormAnggotaPerpustakaanDilebarkan.png)
+![Form Saat Dilebarkan](/P04-docs/FormAnggotaPerpustakaanDilebarkan.png)
 
 ### 3. Jendela Navigator & Susunan Panel (Tab Design)
-![Susunan Panel di Navigator](../P04-docs/FormAnggotaPerpustakaanSusunanPanel.png)
-
+![Susunan Panel di Navigator](/P04-docs/FormAnggotaPerpustakaanSusunanPanel.png)
 ---
 
 ## 🧪 Jawaban Eksperimen Praktikum
