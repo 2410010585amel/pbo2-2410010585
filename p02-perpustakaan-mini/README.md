@@ -11,8 +11,7 @@
 ### Output Program P02
 Berikut adalah hasil pengujian pencarian judul dan percobaan peminjaman Skripsi:
 
-![Screenshot Output P02](../screenshot%20dan%20ekperimen%20P02/Screenshot%20P02.png)
-
+![Screenshot Output P02](../P02-docs/Screenshot%20P02.png)
 ---
 
 ## 🔬 Jawaban Eksperimen Praktikum 6
