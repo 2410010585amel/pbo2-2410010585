@@ -22,8 +22,8 @@ public class KalkulatorSederhana extends javax.swing.JFrame {
         initComponents();
 
         // Kustomisasi placeholder dan style FlatLaf
-        angka1Field.putClientProperty("JTextField.placeholderText", "Angka 1");
-        angka2Field.putClientProperty("JTextField.placeholderText", "Angka 2");
+        angka1Field.putClientProperty("JTextField.placeholderText", "Angka pertama");
+        angka2Field.putClientProperty("JTextField.placeholderText", "Angka kedua");
         hasilLabel.putClientProperty("FlatLaf.styleClass", "h3");
         
         kaliButton.addActionListener(e -> hitung('x'));
@@ -129,7 +129,7 @@ public class KalkulatorSederhana extends javax.swing.JFrame {
 
         bawahPanel.setLayout(new java.awt.BorderLayout(8, 0));
 
-        hasilLabel.setText("Hasil : 0");
+        hasilLabel.setText("Hasil: 0");
         bawahPanel.add(hasilLabel, java.awt.BorderLayout.CENTER);
 
         hapusButton.setText("Hapus");
@@ -158,9 +158,8 @@ public class KalkulatorSederhana extends javax.swing.JFrame {
      * @param args the command line arguments
      */
     public static void main(String args[]) {
-        // Mengaktifkan FlatLaf
         com.formdev.flatlaf.FlatLightLaf.setup();
-        java.awt.EventQueue.invokeLater(() -> new KalkulatorSederhana().setVisible(true));
+        java.awt.EventQueue.invokeLater(() -> new PengamatEvent().setVisible(true));
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

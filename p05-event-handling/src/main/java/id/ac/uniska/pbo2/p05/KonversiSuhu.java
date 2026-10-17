@@ -12,23 +12,7 @@ public class KonversiSuhu extends javax.swing.JFrame {
     
     private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(KonversiSuhu.class.getName());
 
-    
-    // Helper class sesuai modul
-    public static class KonverterSuhu {
-        public static double keFahrenheit(double celsius) {
-            return (celsius * 9 / 5) + 32;
-        }
-
-        public static double keKelvin(double celsius) {
-            return celsius + 273.15;
-        }
-
-        public static double keReamur(double celsius) {
-            return celsius * 4 / 5;
-        }
-    }
-    
-    
+   
     /**
      * Creates new form KonversiSuhu
      */
@@ -87,23 +71,20 @@ public class KonversiSuhu extends javax.swing.JFrame {
         isiPanel.setBorder(javax.swing.BorderFactory.createEmptyBorder(16, 16, 16, 16));
         isiPanel.setLayout(new java.awt.GridLayout(0, 1, 0, 6));
 
-        celsiusLabel.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
+        celsiusLabel.setLabelFor(celsiusField);
         celsiusLabel.setText("Suhu dalam Celsius");
         isiPanel.add(celsiusLabel);
 
         celsiusField.setColumns(12);
         celsiusField.addActionListener(this::celsiusFieldActionPerformed);
         celsiusField.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent evt) {
-                celsiusFieldKeyPressed(evt);
-            }
             public void keyReleased(java.awt.event.KeyEvent evt) {
                 celsiusFieldKeyReleased(evt);
             }
         });
         isiPanel.add(celsiusField);
 
-        satuanLabel.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
+        satuanLabel.setLabelFor(satuanCombo);
         satuanLabel.setText("Konversi ke");
         isiPanel.add(satuanLabel);
 
@@ -111,7 +92,6 @@ public class KonversiSuhu extends javax.swing.JFrame {
         satuanCombo.addItemListener(this::satuanComboItemStateChanged);
         isiPanel.add(satuanCombo);
 
-        konversiButton.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
         konversiButton.setText("Konversi");
         konversiButton.addActionListener(this::konversiButtonActionPerformed);
         isiPanel.add(konversiButton);
@@ -141,10 +121,6 @@ public class KonversiSuhu extends javax.swing.JFrame {
         konversi();
         }
     }//GEN-LAST:event_satuanComboItemStateChanged
-
-    private void celsiusFieldKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_celsiusFieldKeyPressed
-       //konversi();
-    }//GEN-LAST:event_celsiusFieldKeyPressed
 
     
     
