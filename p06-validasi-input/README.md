@@ -17,7 +17,7 @@ Proyek Java Swing (NetBeans) berisi `FormAnggotaPerpustakaan` yang sudah dilengk
 
 ## 1. Lembar Peer Review dari Teman
 
-![Lembar peer review](docs/lembarpeerreview.png)
+![Lembar peer review](P06-docs/lembarpeerreview.png)
 
 ---
 
@@ -32,13 +32,13 @@ Proyek Java Swing (NetBeans) berisi `FormAnggotaPerpustakaan` yang sudah dilengk
 
 ## 3. Tangkapan Layar Form dengan Pesan Kesalahan
 
-![Form saat ada pesan kesalahan](docs/formsaatadapesankesalahan.png)
+![Form saat ada pesan kesalahan](P06-docs/formsaatadapesankesalahan.png)
 
 ---
 
 ## 4. Tangkapan Layar Jendela Navigator (Label Pesan)
 
-![Jendela Navigator](docs/jendelaNavigator.png)
+![Jendela Navigator](P06-docs/jendelaNavigator.png)
 
 ---
 
