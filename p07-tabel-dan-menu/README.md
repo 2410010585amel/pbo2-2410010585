@@ -27,19 +27,7 @@
 
 ---
 
-## 2. Peta Event Aplikasi
 
-| Komponen | Jenis Event | Target / Method yang Dipanggil | Keterangan |
-| :--- | :--- | :--- | :--- |
-| `tambahButton`, `tambahItem` | Action (`actionPerformed`) | `tambah()` | Membuka `DialogKontak` untuk menambah data baru[cite: 9, 10] |
-| `ubahButton`, `ubahItem` | Action (`actionPerformed`) | `ubah()` | Mengubah data kontak pada baris yang dipilih[cite: 9, 10] |
-| `hapusButton`, `hapusItem` | Action (`actionPerformed`) | `hapus()` | Menghapus data kontak setelah dialog konfirmasi[cite: 9, 10, 11] |
-| `cariField` | Key (`keyReleased`) | `saring()` | Menyaring isi tabel secara real-time berdasarkan teks pencarian[cite: 9, 10] |
-| `kontakTable` | Mouse (`mouseClicked`) | `ubah()` | Klik dua kali pada baris tabel untuk langsung mengubah data[cite: 9, 10] |
-| `keluarItem` | Action (`actionPerformed`) | `dispose()` | Menutup jendela aplikasi[cite: 9] |
-| `tentangItem` | Action (`actionPerformed`) | `JOptionPane.showMessageDialog(...)` | Menampilkan informasi tentang aplikasi[cite: 10] |
 
----
-
-## 3. Deklarasi Penggunaan AI
+## 2. Deklarasi Penggunaan AI
 Dalam pengerjaan proyek dan penyusunan tugas ini, **AI digunakan sebagai kolaborator pembelajar** untuk membantu memahami konsep *AbstractTableModel*, *TableRowSorter*, pemecahan masalah (*debugging* eksperimen), serta membantu menyusun dokumentasi proyek dan struktur `README.md`.
