@@ -17,6 +17,7 @@ public class DialogBuku extends javax.swing.JDialog {
     private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(DialogBuku.class.getName());
 
     private Buku hasil; // tetap null jika pengguna membatalkan
+    
 
 public DialogBuku(java.awt.Frame pemilik, String judul, Buku awal) {
     super(pemilik, judul, true); // true berarti modal

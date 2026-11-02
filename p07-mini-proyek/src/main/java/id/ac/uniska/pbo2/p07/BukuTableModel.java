@@ -68,5 +68,12 @@ public class BukuTableModel extends AbstractTableModel {
             }
         }
         return jumlah;
+        
     }
+
+    boolean adaKode(String kode, int barisAbaikan) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+    
+    
 }
